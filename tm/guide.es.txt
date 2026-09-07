@@ -1,0 +1,532 @@
+##debut|Primeros pasos|quest
+Bienvenido a Pokefus. Aquí tu personaje ya no combate por sí mismo: son tus Dofemons los que pelean, y es a través de ellos como progresas.
+
+== Lo que cambia respecto al juego base
+
+- Tu personaje ya no gana experiencia: se queda a nivel 1, y es normal.
+- Tus Dofemons suben de nivel, se equipan y se vinculan a ti. Ellos son tu fuerza.
+- Tu progreso como entrenador se mide por el Renombre: regiones abiertas, especies capturadas, entrenadores derrotados.
+- Un combate perdido no te convierte en fantasma: tu equipo se cura y sales de nuevo desde tu taberna.
+
+== Tu comienzo
+
+%%k|Tu primer Dofemon|3 iniciales a elegir, nivel 3
+%%item:14003|Cápsulas del Principiante de regalo|x 20
+%%k|Al salir de Incarnam|15 Cápsulas Simples te esperan en Astrub
+%%k|Tu campamento base|La taberna: curación gratis y reserva
+
+!! Los botones de abajo a la derecha lo abren todo: equipo, Dofusdex, bolsa, mapa, misiones, Kolizeum. El botón justo encima, la placa con esfera, es la Reanimación. Y este, la Guía.
+
+##dofemons|Tus Dofemons|cat-dofemon
+Seis plazas de equipo, una reserva sin límite, y cada criatura es única: dos Jalatos del mismo nivel no tienen las mismas fuerzas.
+
+== El equipo y la reserva
+
+- El equipo tiene 6 plazas. Todo lo demás vive en la reserva.
+- La reserva se abre en el Intendente Bram, en cada taberna.
+- Un Dofemon a 0 PV no puede llevarse a combate.
+
+== Lo que determina sus estadísticas
+
+- Su nivel, sobre la curva común del mundo: los PV y la iniciativa de referencia de cada nivel.
+- Su especie: hasta un 30 % por encima o por debajo de la referencia, nunca más.
+- Su temperamento, que se sortea al capturarlo y ya no cambia: +10 % en un aspecto, -10 % en otro. Un Macizo tiene más PV y menos iniciativa, un Vivo al revés, un Brutal pega más fuerte pero resiste menos.
+- Su potencial: un talento oculto, sorteado también al capturarlo, que se revela al crecer. Dos Dofemons idénticos nunca tienen exactamente las mismas fuerzas.
+
+== Los niveles
+
+%%k|Tope|Nivel 200
+%%k|Hechizos retenidos|4 como máximo, a elegir en la ficha
+
+- Cada nivel cuesta más que el anterior: los primeros se ganan en un combate, los últimos se merecen.
+- Subir un nivel añade PV al máximo pero no cura.
+- Algunos niveles abren hechizos nuevos: la elección se hace en la ficha del Dofemon.
+
+!! Los PV se conservan entre combates. Un Dofemon que sale a 3 PV entra al combate siguiente a 3 PV: pásate por la Sanadora.
+
+##capture|La captura|dex
+Debilita, elige tu cápsula, lanza: tres sacudidas, y el Dofemon es tuyo. O no.
+
+== Las cápsulas
+
+%%item:14003|Cápsula del Principiante|50 %, solo en Incarnam
+%%item:14000|Cápsula Simple|20 %
+%%item:14001|Cápsula Reforzada|35 %
+%%item:14002|Cápsula Superior|50 %
+%%item:14004|Cápsula del Maestro|90 %
+
+Esos porcentajes son la base, sobre un objetivo a vida completa. Todo lo demás los sube... o los baja.
+
+La Cápsula del Principiante es la única que depende del lugar: se abre en Incarnam y en ningún otro sitio. Te da una captura de cada dos durante tus primeros pasos, y luego se convierte en un recuerdo.
+
+== Lo que ayuda
+
+- Herir al objetivo: casi sin vida, la probabilidad puede más que duplicarse.
+- El Amuleto de cebo (equipamiento): +10 puntos de probabilidad mientras su portador esté en el terreno.
+- El cinturón del entrenador, rama del Capturador: +3, +6 o +10 %.
+- El tope está en el 95 %: nada garantiza nunca una captura.
+
+== Lo que resiste
+
+- Un objetivo de nivel más alto que el tuyo.
+- Un grado elevado (4 o más): probabilidad reducida un 20 %.
+- Un archimonstruo: probabilidad reducida a la mitad.
+- Un jefe: no se captura nunca, ninguna cápsula lo retiene.
+
+== Dónde está prohibido
+
+- En las mazmorras: los Dofemons están en su casa.
+- Contra un entrenador, en desafío de arena, en el Kolizeum.
+- Contra un agresor de la Team Racket: sus Dofemons son los del guion.
+
+== La calidad de la captura
+
+Dos Dofemons de la misma especie y del mismo nivel no valen lo mismo. Cada captura sortea una calidad, que se muestra con una palabra en su ficha.
+
+%%k|Común|El lote corriente
+%%k|Robusto|Un poco por encima
+%%k|Notable|Una buena captura
+%%k|Excepcional|Raro, y se nota en combate
+
+Dos cosas la deciden: el sorteo, que va de -10 a +10 %, y sobre todo EL NIVEL AL QUE LO CAPTURASTE. Un bicho capturado a 150 parte mucho más alto que uno capturado a 10, y para siempre.
+
+!! Capturar alto vale más que capturar pronto: el nivel de captura queda grabado y no se recupera nunca. Un bicho subido desde el nivel 5 se quedará por detrás de uno de la misma especie capturado a 100.
+
+== Lo que pasa después
+
+- Éxito: el Dofemon se une a tu equipo, o a tu reserva si está lleno. El combate continúa y llega el relevo enemigo.
+- Fallo: la cápsula se pierde, y un objetivo muy debilitado puede huir.
+- Capturar consume el turno de tu criatura, igual que un ataque.
+
+##incubation|La cámara de incubación|team
+Tus capturas sobrantes no duermen: alimentan a las que conservas. Un bicho bien alimentado entra en incubación, sale más fuerte y gana una estrella.
+
+== Alimentar: cuenta el nivel, no la cantidad
+
+- Un Dofemon entregado vale su nivel en puntos.
+- Misma especie que el bicho alimentado: su valor se dobla.
+- Un Dofemon que ya tiene estrellas vale más: una estrella dobla su valor, dos lo triplican, tres lo cuadruplican.
+
+Capturar cincuenta bichos de nivel 5 cerca de Incarnam no es buena idea: harían falta trescientos para una tercera estrella, frente a quince de nivel 100. No está prohibido, solo es mucho más lento que jugar normal.
+
+== Los tres escalones
+
+%%k|Primera estrella|150 puntos, y luego 2 h de incubación
+%%k|Segunda estrella|500 puntos, y luego 8 h
+%%k|Tercera estrella|1500 puntos, y luego 24 h
+
+!! Lo que pasa del umbral se pierde, como la experiencia en el tope. La cámara rechaza una barra ya llena y te avisa antes de consumir un bicho de más.
+
+== Lo que da cada estrella
+
+- +15 % de potencia y de vida, en cada escalón.
+- Un punto de acción más, en la segunda estrella.
+- Un punto de mejora de hechizo, en la tercera.
+
+== El precio real es la ausencia
+
+Un bicho que incuba no combate. Deja tu equipo, desaparece de la lista de los que puedes entregar y no vuelve hasta que sale. El plazo no es decoración: es lo que impide hacerlo evolucionar todo de golpe.
+
+== Los huecos
+
+- Una incubadora es gratis, y puedes abrir hasta diez.
+- Cada hueco de más cuesta 30 Dofetones.
+- La cuenta atrás sobrevive a una desconexión: está escrita en base de datos, no guardada en memoria.
+
+== Acelerar
+
+Terminar una incubación cuesta 1 Dofetón por hora restante, y ese precio baja solo a medida que pasa el tiempo. Un clic en el botón de la incubadora abre una confirmación que muestra el precio: nunca se gasta nada sin que lo hayas leído.
+
+!! Durante la beta, la cámara se paga en Dofetones y no en ogrinas: las ogrinas todavía no se compran, y un precio que no se puede pagar no es un precio.
+
+##combat|El combate|cat-combat
+Tus Dofemons se colocan en el terreno y tú los mandas uno a uno. El número de combatientes depende del lugar.
+
+== El formato
+
+%%k|En exterior|2 Dofemons por entrenador
+%%k|En mazmorra|3 Dofemons por entrenador
+%%k|En grupo|6 plazas por bando, repartidas a partes iguales
+%%k|Entre jugadores|3 por bando, siempre
+
+El bando de enfrente se ajusta a lo que saquen de verdad: con dos entrenadores y dos bichos cada uno, el combate es un 4 contra 4.
+
+== El turno de un Dofemon
+
+- Atacar bloquea la bolsa, la captura y el cambio durante ese turno: un turno es una intención.
+- Cambiar un Dofemon consume el turno. El que entra jugará en la ronda siguiente.
+- Usar un objeto de la bolsa también consume el turno.
+- Dos excepciones, por equipamiento: el Banderín de relevo hace el cambio gratis, y la Morral de tablilla da un objeto gratis por combate.
+
+== El relevo
+
+- Un Dofemon que cae es relevado al momento por el primero de tu reserva que siga en pie. En tu bando y en el de enfrente.
+- El sustituto llega nuevo: nada de lo que haya pasado antes de su entrada le afecta.
+
+== Los primeros niveles están suavizados
+
+Mientras un Dofemon esté por debajo del nivel 30, los monstruos salvajes solo le hacen el 75 % de su daño. La tarifa completa vuelve a partir de 30.
+
+A cambio, un combate se endurece a medida que subes: hacen falta unos seis golpes para tumbar a un adversario de tu nivel antes de 30, siete antes de 60, y ocho después. El principio es un calentamiento, no la cima de la dificultad.
+
+== Varios
+
+- Cada Dofemon puede mantener una invocación a la vez.
+- El Incienso de Niebla hace abandonar un combate salvaje sin fallo, y sin consumir el turno.
+
+##ameliorations|Mejorar sus hechizos|tab-combat
+Tus Dofemons no aprenden hechizos nuevos al subir: mejoran los que ya tienen. Un Moskito que lo mete todo en Picadura se convierte en un especialista.
+
+== Dónde se hace
+
+Ficha del Dofemon, pestaña Hechizos. Un hechizo aprendido se pulsa y muestra su camino. Un punto dorado se enciende allí donde aparezca el bicho cuando le espera un punto.
+
+== Los puntos
+
+- Un punto cada diez niveles, o sea veinte al nivel 200.
+- Un punto más en la tercera estrella de incubación.
+- Todo se recupera gratis, tantas veces como quieras.
+
+== El precio sube con el escalón
+
+%%k|Primer escalón|1 punto
+%%k|Segundo escalón|2 puntos
+%%k|Tercer escalón|4 puntos
+
+Llegar al final de un camino cuesta por tanto 7 puntos. Eso es lo que aprieta el presupuesto: un bicho con muchos hechizos no puede cogerlo todo y tiene que elegir dónde insistir, mientras que uno con un solo hechizo puede dedicarse a él por entero, y pronto.
+
+== El camino
+
+Un camino se sube escalón a escalón, de izquierda a derecha. Cada escalón ofrece dos vías, y solo se toma una: es esa elección la que hace que dos Dofemons de la misma especie no se parezcan.
+
+- Un escalón tomado solo muestra ya la vía elegida, en dorado.
+- El escalón siguiente no se abre hasta superar el anterior.
+- Los escalones futuros se siguen leyendo, apagados: saber lo que viene ayuda a guardarse un punto.
+
+== Lo que tocan las vías
+
+%%k|La tirada|El daño o la curación, en porcentaje
+%%k|El alcance|Casillas de más, de inmediato y en todas partes
+%%k|El coste|Un punto de acción menos, lo que cambia el número de hechizos por turno
+%%k|Los lanzamientos|Una vez más por turno
+%%k|La duración|Turnos de efecto adicionales
+
+!! «Cuesta 1 PA menos» es una ganancia, no una penalización: es tu hechizo el que sale más barato, y un punto de acción ahorrado suele valer más que un porcentaje.
+
+== No todos los hechizos se mejoran
+
+Una mejora recae sobre un efecto, y no todos los efectos del juego tienen uno. Está cubierta más o menos la mitad de lo que usa el bestiario: el daño de los cinco elementos, el robo de vida, la curación, la invocación, las ganancias y pérdidas de PA y PM, la vitalidad, los daños, el alcance y el veneno paralizante.
+
+Un hechizo del que ningún efecto está cubierto no se abre: su línea no lleva ni rosario ni galón. No es un olvido, es que ninguna de las vías existentes tendría sentido con él.
+
+!! Algunos efectos se dejan fuera a propósito porque mejorarlos los rompería. «Cambia la apariencia» o «Quita los encantamientos» llevan un identificador, no una potencia: reforzarlo señalaría otra cosa.
+
+== Una vía puede servir a dos hechizos
+
+Una mejora recae sobre un efecto, no sobre un hechizo. Si dos hechizos de tu bicho llevan el mismo efecto, mejorar uno mejora el otro: la ficha te lo dice bajo el nombre del efecto.
+
+##defaite|Derrota y curación|giveup
+Perder no es nunca una catástrofe: no muere nadie, no se pierde nada para siempre.
+
+== Cuando cae todo el equipo
+
+- Tu equipo entero se cura, gratis.
+- Pagas gastos de auxilio: el 8 % de los kamas que lleves, entre 20 y 25 000.
+- El cinturón, rama del Previsor, los reduce un 8, 16 o 25 %.
+- Vuelves a tu punto de reanimación, o a la taberna abierta más cercana.
+- Abandonar cuesta exactamente lo mismo que perder.
+
+== Lo que no cuesta nunca nada
+
+- Una derrota en el Kolizeum: vuelves de donde venías, curado.
+- Una derrota en desafío de arena: el equipo se pone en pie allí mismo, y lo intentas cuando quieras.
+
+== Curarse
+
+%%k|Sanadora Elyne|Gratis, toda la colección, en cada taberna
+%%item:14100|Baya Curativa|Devuelve el 30 % de los PV
+%%item:14101|Baya Vigorosa|Devuelve el 60 % de los PV
+%%item:14102|Fragmento de Reanimación|Reanima a un K.O. al 50 %
+
+!! El Fragmento de Reanimación solo funciona con un Dofemon de la reserva, nunca con el que está en el terreno.
+
+##lien|El Vínculo|friends
+El Vínculo mide lo que han pasado juntos. Solo sube combatiendo, nunca quedándose al calor.
+
+== Cómo sube
+
+%%k|Victoria habiendo combatido|+3
+%%k|Cada nivel ganado|+5
+%%k|Terminar un combate por debajo del 25 % de sus PV|+6
+%%k|Quedarse en reserva|Nada
+
+== Los escalones
+
+%%k|20 - Compañera|Escalón 1
+%%k|60 - Probada|Escalón 2
+%%k|120 - Inseparable|Escalón 3
+%%k|200 - Leyenda del entrenador|Escalón 4
+
+Cada escalón da un título... y un punto más de capacidad de carga: un Dofemon muy vinculado lleva más equipamiento.
+
+== Acelerarlo
+
+%%item:14222|Marca del entrenador|Vínculo ganado doblado
+%%item:14254|Diadema del vínculo|Vínculo doblado, +10 % PV
+%%k|Sombrero, rama del Apego|+8, +16 o +25 %
+
+##equipement|El equipamiento|cat-equip
+Cada Dofemon lleva hasta 5 piezas, dentro del límite de su capacidad. Todo se compra en Ivane Courroie, en el zaap de Astrub, en Dofetones.
+
+== La capacidad de carga
+
+%%k|Base|4 puntos
+%%k|Cada 15 niveles|+1 punto
+%%k|Cada escalón de Vínculo|+1 punto
+%%k|Máximo|16 puntos, 5 piezas
+
+Una pieza de escalón 1 cuesta 2 puntos de capacidad, y una de escalón 80 cuesta 6.
+
+== Los cinco escalones del mostrador
+
+%%k|Escalón 1 (nivel 1)|4 a 6 Dofetones
+%%k|Escalón 20|10 a 15 Dofetones
+%%k|Escalón 40|25 a 35 Dofetones
+%%k|Escalón 60|50 a 70 Dofetones
+%%k|Escalón 80|100 a 140 Dofetones
+
+La escala es constante: una pieza vale unos veinte combates de su propio escalón.
+
+== Las piezas que cambian la forma de jugar
+
+%%item:14214|Cascabel del despertar|+1 PM en el primer turno
+%%item:14223|Morral de tablilla|1.er objeto del combate gratis
+%%item:14233|Banderín de relevo|El cambio ya no consume el turno
+%%item:14234|Amuleto de cebo|+10 % de probabilidad de captura
+%%item:14242|Arnés de aliento|+1 PA en el primer turno
+%%item:14252|Corazón de brasa|+1 PA permanente, -1 PM
+
+- Tres familias: Arnés (defensa), Talismán (ataque), Marca (utilidad).
+- Equipar consume el objeto de la bolsa; desequipar lo devuelve. Prohibido en combate.
+- Las bonificaciones de un mismo tipo tienen tope: +35 % PV, +30 % daño, +25 % resistencia como máximo.
+
+##panoplie|El conjunto del entrenador|cat-equip
+Tus Dofemons tienen su equipamiento; tú tienes el tuyo. Seis piezas que lleva TU personaje, y que nunca cambian la ficha de una criatura sino el mundo a su alrededor.
+
+== Las seis piezas, dos vías cada una
+
+%%k|Sombrero|Saber: experiencia de equipo, o Apego: Vínculo ganado
+%%k|Capa|Chatarrero: botín, o Mercader: kamas recogidos
+%%k|Cinturón|Capturador: éxito de captura, o Previsor: gastos de auxilio
+%%k|Botas|Viajero: velocidad de carrera, o Discreto: menos emboscadas
+%%k|Anillo|Vigor: PV del equipo, o Guardián: daño recibido
+%%k|Arma|Espadachín: daño al contacto, o Tirador: daño a distancia
+
+Cada pieza se sube por UNA vía, a elegir, y nunca por las dos.
+
+== Los tres rangos
+
+%%k|Lo que da un rango|Vías comunes: 8 %, 16 %, 25 %
+%%k|Captura|3 %, 6 %, 10 %
+%%k|Vigor y resistencia|2 %, 4 %, 6 %
+%%k|Contacto y distancia|4 %, 8 %, 12 %
+%%k|Velocidad de carrera|+50 %, +100 %, +200 %
+
+Las vías que compran tiempo, botín, experiencia, Vínculo o kamas son generosas: nada de lo que dan se vuelve contra otro jugador. El anillo y el arma compran potencia: son las más caras y las más flojas del lote, a propósito.
+
+== Por qué el arma da el doble
+
+Sus dos vías solo sirven la mitad del tiempo: el Espadachín solo cuenta con un objetivo pegado a él, y el Tirador solo con uno a dos casillas o más. Un doce por ciento la mitad del tiempo vale como un seis todo el tiempo, exactamente lo que daba el anillo antes.
+
+!! Lo que decide es la distancia REAL del golpe, no el alcance del hechizo. Un hechizo de alcance cinco lanzado a bocajarro es un golpe de contacto.
+
+== El presupuesto hace la build
+
+%%k|Lo que da un fragmento|Cada escalón de renombre
+%%k|Subir una pieza al rango 3|1 + 2 + 4 = 7 fragmentos
+%%k|Subirlo todo al máximo|42 fragmentos, para 20 disponibles con renombre 100
+
+Nunca podrás tenerlo todo: eso es lo que hace que un entrenador se parezca a sus decisiones y no a su antigüedad.
+
+== Cambiar de idea
+
+La refundición devuelve TODOS tus fragmentos de golpe, a cambio de kamas. No se pierde nada, no hay nada gratis: el precio sube con lo que tuvieras puesto.
+
+!! El conjunto no añade ni una línea a la ficha de un Dofemon. Una criatura capturada se lee siempre tal cual, sea cual sea el entrenador que la lleva.
+
+##dons|Los Dones de los Doce|cosmetics
+Tu clase de personaje no es decorativa: cada clase lleva un Don que beneficia a todos tus Dofemons.
+
+== Los dones pasivos
+
+%%k|Feca|Escudo del 5 % de los PV a la entrada de un Dofemon
+%%k|Osamodas|+1 PM en el primer turno de cada Dofemon
+%%k|Enutrof|Revela a los adversarios, +3 % sobre el Filón marcado
+%%k|Sram|+8 % en el primer golpe dado a un enemigo intacto
+%%k|Ecaflip|Cara: +4 % de daño. Cruz: -4 % de daño recibido
+%%k|Iop|+10 % de daño cuerpo a cuerpo
+%%k|Cra|+8 % de daño a 3 casillas o más
+%%k|Sadida|Cada pérdida de PM aplicada quita 1 más
+%%k|Sacrieur|+1 % de daño por cada 10 % de PV que falten, máx +8
+
+== Los dones activos, una vez por combate
+
+%%k|Xelor - Reserva temporal|Guarda 2 PA para el turno siguiente
+%%k|Eniripsa - Palabra de Respiro|Devuelve el 15 % de los PV del lanzador
+%%k|Pandawa - Arte de la colocación|Empuja a un Dofemon 2 casillas
+
+- Un don activo usado se reinicia en el combate siguiente.
+- El don que se aplica es el del entrenador que manda la criatura.
+
+##monde|Mundo y viajes|map
+El mundo se abre región por región. Cada frontera cerrada tiene su llave: un guardián al que derrotar, o la historia que hay que hacer avanzar.
+
+== Abrir una región
+
+- Cada región bloqueada tiene un guardián de ruta, un entrenador apostado en su frontera. Derrotarlo abre la región.
+- La historia principal también abre regiones al avanzar: los dos caminos llevan a la misma puerta.
+- Si una frontera te rechaza, el mensaje te dice quién la guarda y dónde encontrarlo, en cuanto estés listo para desafiarlo.
+
+== La Reanimación
+
+- Gratis, para todo el mundo, desde cualquier sitio.
+- Dos pestañas: las tabernas de las regiones abiertas, y los zaaps que hayas tocado.
+- Prohibida en pleno combate o durante una escena: no hay escapatoria a la emboscada.
+
+== Llegar allí: el piloto automático
+
+- Haz clic en una casilla del mapa del mundo: tu entrenador va solo, de mapa en mapa.
+- El camino se muestra con puntos y sigue tus cambios de destino.
+- Si un zaap que conoces acerca al objetivo, se teletransporta: gratis, como una reanimación.
+- Haz clic en el suelo para retomar el control: el trayecto se para en seco.
+
+!! Las tabernas curan, guardan tu reserva y se convierten en tu punto de reanimación cada vez que visitas a la Sanadora.
+
+##dresseurs|Entrenadores y Liga|rank-or
+Decenas de entrenadores ocupan el mundo, cada uno con su equipo. El signo de exclamación dorado señala a los que aún no has derrotado.
+
+== Los desafíos
+
+- Habla con el entrenador y acepta su desafío. Solo cuenta una victoria: paga completo, de una vez.
+- Algunos entrenadores exigen haber derrotado antes a otros: el diálogo te lo dirá.
+- Perder solo cuesta los gastos de auxilio de siempre. Vuelve más fuerte.
+
+== La Liga de Astrub
+
+- Seis salas bajo la ciudad, en el subterráneo profundo: la entrada está en el taller de los mineros.
+- Basile Lanterne, al pie de la escalera, te deja en la primera sala no ganada. Avisa, no prohíbe.
+- Cada sala tiene una salida que puedes cruzar en cualquier momento.
+- Con los seis campeones derrotados, la Liga se repite entera, una vez al día, como entrenamiento al 20 % de la experiencia.
+
+##racket|La Team Racket|tab-combat
+Siluetas enmascaradas recorren los caminos desde los sucesos de Astrub. No avisan.
+
+== La emboscada
+
+- A partir del capítulo de la Pista de los Campos, la Team Racket puede caerte encima por el camino.
+- Nunca en las ciudades, las mazmorras ni las tabernas. Nunca dos veces seguidas: dejan pasar al menos 25 minutos.
+- No atacan a un equipo tocado: por debajo del 55 % de sus PV, esperan su momento.
+
+== La bolsa
+
+- Cada asaltante lleva una bolsa de Dofetones, más pesada en las zonas peligrosas.
+- Si ganas, la bolsa es tuya. Si pierdes, te vacía los bolsillos por la misma cantidad.
+- Sus Dofemons no se capturan: son suyos.
+
+== La red
+
+Recogen, transportan y pagan. Alguien organiza todo eso. Sigue la historia principal: cada capítulo sube un escalón de la red.
+
+##koli|Kolizeum y Arenas|koli
+Dos formas de medirse con otros entrenadores: el duelo en directo y la escalera que se sube.
+
+== El Kolizeum
+
+- Duelos 1 contra 1 o 3 contra 3, inscripción por la ventana del Kolizeum.
+- Tu puntuación empieza en 1000 y se mueve en cada combate. Cinco combates de colocación antes de tu primer rango.
+- Los rangos: Madera, Plata, Oro, Esmeralda, Diamante, Demoníaco, Legendario.
+- Terminado el combate, vuelves exactamente donde estabas, curado. Perder no cuesta nada.
+
+== Los Kolizetones
+
+%%item:14301|Victoria|10 Kolizetones
+%%item:14301|Derrota|3 Kolizetones
+
+La tienda del Kolizeum los cambia: Cápsula Superior por 8, Cápsula del Maestro por 60, y un adorno de combatiente.
+
+== Las tres arenas
+
+- Novatos (nivel 30 máx.), Veteranos (70 máx.), Maestros (sin límite).
+- Cinco rangos por arena, ocupados por los equipos que otros entrenadores han dejado allí. Se desafía al equipo, no al jugador.
+- Tomar un rango paga una prima, mantenerlo paga una renta diaria.
+- Ninguna experiencia, ningún botín: la arena paga en kamas y en prestigio, nunca en farmeo.
+- Perder ahí es gratis: el equipo se cura en el sitio.
+
+##progression|Economía y renombre|cat-ressource
+Dos monedas, cuatro mostradores, y un progreso de entrenador que no olvida nada de lo que haces.
+
+== El Dofetón
+
+%%item:14300|El Dofetón|La moneda de los entrenadores
+
+- Cae de todos los monstruos del mundo: cuanto más fuerte es el monstruo, más alta es la tasa.
+- No se vende ni se compra: se gana combatiendo, y se intercambia entre jugadores.
+- Bajar a farmear monstruos flojos no da casi nada: quédate en tu nivel.
+
+== Los mostradores del zaap de Astrub
+
+%%k|Sorel Besace|Cápsulas y objetos de combate, en Dofetones
+%%k|Ivane Courroie|Equipamiento de Dofemon, en Dofetones
+%%k|Colin Bourse|Las mismas mercancías en kamas, cien veces el precio: el apaño
+%%k|Perrine Aiguille|Sombreros y capas Polikromos, 5 000 kamas la pieza
+
+== Los kamas
+
+- Los monstruos sueltan tres veces más kamas que en el juego base.
+- Pagan lo cosmético, los gastos de auxilio y el apaño en Colin.
+
+== El Renombre
+
+- Tu progreso real como entrenador: 100 niveles, alimentados por hitos.
+- Abrir una región, terminar una mazmorra, capturar 10 especies, derrotar a un entrenador, subir un Vínculo: todo cuenta, una vez.
+- Cuatro pilares: Explorador, Coleccionista, Entrenador, Compañero. La ventana de Logros lleva las cuentas.
+- El Dofusdex paga cada 10: 10 especies vistas o capturadas más, y cae el Renombre.
+
+== El Renombre pone tope a tus Dofemons
+
+Es el punto más importante de esta página. Tus Dofemons no pueden pasar de un nivel fijado por TU Renombre: a partir de ahí dejan de ganar experiencia, hagas lo que hagas.
+
+%%k|Renombre 1|Tope 50
+%%k|Renombre 10|Tope 64
+%%k|Renombre 25|Tope 86
+%%k|Renombre 50|Tope 124
+%%k|Renombre 75|Tope 162
+%%k|Renombre 100|Tope 200
+
+!! Si un Dofemon deja de subir en seco, no es un fallo: has tocado tu tope. Ve a por hitos, abre una región, termina una mazmorra, y volverá a subir.
+
+Es intencionado: es lo que impide llevar un solo bicho al nivel 200 ignorando todo el resto del mundo.
+
+##chromatiques|Los Cromáticos|cat-ressource
+Cada seis a doce horas, una bestia de un color que nadie le conocía despierta en algún punto del mundo. Todo el servidor se entera a la vez. A partir de ahí, es una carrera.
+
+== Cómo funciona
+
+- El aviso nombra la ZONA, nunca el mapa. Dar con el sitio exacto es parte de la caza.
+- En el mapa del mundo se clava una chincheta dorada, y late. Dice dónde buscar, no dónde está.
+- Si a los veinte minutos nadie lo ha atrapado, un segundo aviso suelta las coordenadas. Nadie se queda atascado.
+- A las dos horas se marcha, y el servidor también lo anuncia.
+
+== La carrera no termina con el primero que llega
+
+- El combate queda abierto: otros entrenadores pueden unirse mientras se colocan las fichas.
+- Si fallas la cápsula, pierdes el combate o lo derribas, se escapa y se esconde EN OTRO SITIO de la misma zona. El aviso vuelve a sonar y otro tiene su oportunidad.
+- Pero no se cura entre encuentro y encuentro, y cada huida lo deja un poco más fácil de retener. Una caza que se alarga acaba saliendo siempre.
+
+== Lo que ganas
+
+- Sus colores, que conserva para siempre en tu equipo.
+- La mejor tirada posible para su especie: rareza y potenciales al máximo. No hay Cromáticos malos.
+- Un contador aparte, que cuenta ESPECIES y no capturas: repetir la misma dos veces no suma.
+
+!! Al décimo Cromático de especies distintas: el título de Cazador de Cromáticos y el adorno Élioca

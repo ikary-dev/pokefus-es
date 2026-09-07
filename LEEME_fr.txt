@@ -1,0 +1,135 @@
+POKEFUS EN ESPAGNOL
+===================
+
+Traduit par : ikary
+
+
+QUOI FAIRE
+----------
+
+1. Décompresse ce dossier À CÔTÉ du dossier du jeu.
+
+   Ça doit donner ceci :
+
+       Pokefus/
+         Pokefus UpLauncher/     <- le jeu
+         pokefus-es/             <- ce dossier
+
+2. Ouvre « Pokefus en espanol.bat » (double-clic).
+
+   Il applique la traduction et lance le jeu.
+
+   LA PREMIÈRE FOIS ÇA PREND DEUX MINUTES : il télécharge depuis le
+   serveur de Pokefus les fichiers de langue (environ 11 Mo) pour
+   pouvoir comparer le français et l'espagnol. Tu verras une liste de
+   « bajando ... ». Les fois suivantes, ça démarre en quelques
+   secondes.
+
+3. À partir de maintenant, ouvre TOUJOURS le jeu depuis ce fichier
+   plutôt que depuis le raccourci de Pokefus.
+
+C'est tout. Il n'y a rien à installer : le jeu lui-même sert
+d'interpréteur.
+
+
+POURQUOI IL FAUT PASSER PAR LÀ
+------------------------------
+
+Quand Pokefus se met à jour, son updater remet dans leur état
+d'origine les fichiers du jeu que la traduction modifie. Lancer
+depuis le .bat les remet en place avant de démarrer, donc la mise à
+jour ne te laisse pas le jeu à moitié traduit.
+
+Tout le reste -- les textes que le jeu télécharge et ceux que le
+serveur envoie par internet -- est traduit à la volée, sans toucher
+aucun fichier, et ne dépend donc pas de la version.
+
+
+SI TU VEUX L'ENLEVER
+--------------------
+
+Ouvre « quitar traduccion.bat ». Le client redevient exactement ce
+qu'il était : une copie de tout ce qui est modifié est faite la
+première fois.
+
+Cette copie n'est faite que si le fichier est vraiment en français. Si
+quelqu'un copie une installation déjà traduite sans le dossier
+« backup », le programme s'arrête et le dit, au lieu d'enregistrer
+l'espagnol comme s'il s'agissait de l'original -- ce qui laisserait le
+jeu sans retour en arrière possible.
+
+
+SI QUELQUE CHOSE SE PASSE MAL
+-----------------------------
+
+Le jeu s'ouvre quand même, en français : la traduction est faite pour
+échouer du bon côté. Si le proxy ne démarre pas, le jeu se connecte
+directement, comme d'habitude.
+
+Le fichier « hook.log » garde la trace de ce qui s'est passé au
+dernier démarrage.
+
+
+CE QUI EST TRADUIT
+------------------
+
+Écran de connexion, menus, équipe, sac, quêtes, dialogues des PNJ, le
+guide du dresseur en entier, les objets, les sorts et leurs effets,
+les noms des Dofemons et les messages du chat.
+
+Il reste en français quelques noms propres de PNJ et quelques
+messages internes.
+
+Le texte est en espagnol d'Amérique latine : le « vosotros » du client
+officiel a été remplacé par « ustedes » dans tous les dialogues et
+tous les messages.
+
+
+SI TU VOIS QUELQUE CHOSE EN FRANÇAIS
+------------------------------------
+
+Copie-le et envoie-le-moi, ou note-le toi-même :
+
+  1. Crée un fichier vide nommé « debug-proxy » dans le dossier « tm ».
+     À partir de là, tout ce qui passe par le proxy est enregistré
+     dans « proxy.log ».
+
+  2. Joue un moment, puis, dans ce dossier :
+
+         node src/pendientes-red.js     ce qui n'a pas été traduit
+         node src/trozos-frances.js     quel morceau exact manque
+
+     Le second regroupe les fiches de sort et d'objet en retirant les
+     chiffres -- c'est ce qui change de l'une à l'autre -- si bien
+     qu'une seule nouvelle entrée peut corriger des milliers de
+     messages d'un coup.
+
+  3. En terminant, supprime « tm/debug-proxy » et « proxy.log » : le
+     journal grossit vite, deux cents mégas en quelques sessions.
+
+C'est désactivé par défaut et ça ne prend aucune place.
+
+
+CE QU'IL TOUCHE ET CE QU'IL NE TOUCHE PAS
+-----------------------------------------
+
+Il touche six fichiers du client sur les 23 750 qu'il contient :
+preloader.js, loader.swf, modules/core.swf, guide.txt, hints.js et
+config.xml. Tout le reste reste identique à l'officiel, et ça se
+vérifie :
+
+    node src/comprobar-cliente.js
+
+compare les 23 750 fichiers au manifeste du launcher lui-même
+(« version.control ») et dit lesquels ne correspondent pas.
+
+Il ne change rien à la logique du jeu : uniquement des chaînes de
+texte. Et ce que le client envoie au serveur part sans qu'un seul
+octet soit modifié -- le proxy traduit ce qui arrive, jamais ce qui
+sort.
+
+
+CRÉDITS
+-------
+
+Traduit par : ikary

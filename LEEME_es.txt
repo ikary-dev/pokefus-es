@@ -1,0 +1,125 @@
+POKEFUS EN ESPAÑOL
+==================
+
+Traducido por: ikary
+
+QUÉ HACER
+---------
+
+1. Descomprime esta carpeta AL LADO de la carpeta del juego.
+
+   Tiene que quedar así:
+
+       Pokefus/
+         Pokefus UpLauncher/     <- el juego
+         pokefus-es/             <- esta carpeta
+
+2. Abre "Pokefus en espanol.bat" (doble clic).
+
+   Aplica la traducción y abre el juego.
+
+   LA PRIMERA VEZ TARDA UN PAR DE MINUTOS: se baja del servidor de
+   Pokefus los archivos de idioma (unos 11 MB) para poder comparar el
+   francés con el español. Verás una lista de "bajando ...". Las
+   siguientes veces arranca en segundos.
+
+3. A partir de ahora, abre SIEMPRE el juego desde ese archivo
+   en vez de desde el acceso directo de Pokefus.
+
+Nada más. No hay que instalar nada: usa el propio juego como
+intérprete.
+
+
+POR QUÉ HAY QUE ABRIRLO DESDE AHÍ
+---------------------------------
+
+Cuando Pokefus se actualiza, su actualizador devuelve a su estado
+original los archivos del juego que la traducción modifica. Abrir
+desde el .bat los vuelve a poner antes de arrancar, así que la
+actualización no te deja el juego a medio traducir.
+
+Todo lo demás -- los textos que el juego descarga y los que manda el
+servidor por internet -- se traduce al vuelo, sin tocar ningún
+archivo, y por eso no depende de la versión.
+
+
+SI QUIERES QUITARLO
+-------------------
+
+Abre "quitar traduccion.bat". El cliente queda exactamente como
+estaba: se guarda copia de todo lo que se toca la primera vez.
+
+Esa copia solo se hace si el archivo está de verdad en francés. Si
+alguien copia una instalación ya traducida y no trae la carpeta
+"backup", el programa se para y lo dice, en vez de guardar el español
+como si fuera el original -- que dejaría el juego sin vuelta atrás.
+
+
+SI ALGO VA MAL
+--------------
+
+El juego se abre igual, en francés: la traducción está hecha para
+fallar hacia el lado seguro. Si el proxy no arranca, el juego se
+conecta directo como siempre.
+
+En "hook.log" queda anotado lo que hizo en el último arranque.
+
+
+QUÉ ESTÁ TRADUCIDO
+------------------
+
+Pantalla de conexión, menús, equipo, mochila, misiones, diálogos de
+los NPC, la guía del entrenador entera, los objetos, los hechizos y
+sus efectos, los nombres de los Dofemons y los mensajes del chat.
+
+Queda en francés algún nombre propio de PNJ y algún mensaje interno.
+
+El texto está en español de Latinoamérica: se cambió el "vosotros" del
+cliente oficial por "ustedes" en todos los diálogos y avisos.
+
+
+SI VES ALGO EN FRANCÉS
+----------------------
+
+Cópialo y pásamelo, o déjalo apuntado tú mismo:
+
+  1. Crea un archivo vacío llamado "debug-proxy" dentro de "tm".
+     A partir de ahí se guarda en "proxy.log" todo lo que pasa por el
+     proxy.
+
+  2. Juega un rato y luego, en esta carpeta:
+
+         node src/pendientes-red.js     lo que quedó sin traducir
+         node src/trozos-frances.js     qué trozo exacto falta
+
+     El segundo agrupa las fichas de hechizo y de objeto quitando los
+     números -- que es lo que cambia de una a otra -- así que una sola
+     entrada nueva puede arreglar miles de mensajes de golpe.
+
+  3. Al terminar, borra "tm/debug-proxy" y "proxy.log": el registro
+     crece deprisa, doscientos megas en unas cuantas sesiones.
+
+De fábrica viene apagado y no ocupa nada.
+
+
+QUÉ TOCA Y QUÉ NO
+-----------------
+
+Toca seis archivos del cliente de los 23.750 que tiene: preloader.js,
+loader.swf, modules/core.swf, guide.txt, hints.js y config.xml. Todo lo
+demás queda igual que el oficial, y se puede comprobar:
+
+    node src/comprobar-cliente.js
+
+compara los 23.750 archivos contra el manifiesto del propio launcher
+("version.control") y dice cuáles no cuadran.
+
+No cambia nada de la lógica del juego: solo cadenas de texto. Y lo que
+el cliente le manda al servidor va sin modificar ni un byte -- el proxy
+traduce lo que llega, nunca lo que sale.
+
+
+CRÉDITOS
+--------
+
+Traducido por: ikary
